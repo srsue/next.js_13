@@ -16,7 +16,7 @@ async function fetchRepos() {
 
 const ReposPage = async () => {
   const repos = await fetchRepos();
-  console.log(repos);
+
   return (
     <div>
       {repos[0].name}
@@ -24,4 +24,4 @@ const ReposPage = async () => {
   )
 }
 
-export default ReposPage
+export default ReposPage;
