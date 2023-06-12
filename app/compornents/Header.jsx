@@ -1,21 +1,20 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className='header'>
+    <header className="header">
       <div className="container">
         <div className="logo">
-          <Link href="/">SRSUE's Portfolio Site</Link>
+          <Link href="/">SRSUE Portfolio Site</Link>
         </div>
         <div className="links">
           <Link href="/about">About</Link>
           <Link href="/about/profile">Profile</Link>
           <Link href="/code/repos">Code</Link>
         </div>
-
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
